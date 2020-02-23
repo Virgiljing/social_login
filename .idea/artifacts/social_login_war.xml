@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="social_login:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>social_login</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="social_login.war">
+      <element id="artifact" artifact-name="social_login:war exploded" />
+    </root>
+  </artifact>
+</component>
